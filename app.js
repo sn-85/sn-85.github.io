@@ -1,3 +1,4 @@
+/*
 //defining a module - it is a container for the different parts of the app
 var app = angular.module('myApp', ['ngRoute']);
 
@@ -5,10 +6,10 @@ var app = angular.module('myApp', ['ngRoute']);
 app.controller('HomeController', function($scope) {
   $scope.message = 'Hello from HomeController.';
 });
+*/
+var app = angular.module('myApp', ['ngRoute']);
 
-//var app = angular.module('myApp', ['ngRoute']);
-
-/*app.config(function($routeProvider) {
+app.config(function($routeProvider) {
   $routeProvider
 
   .when('/', {
@@ -40,4 +41,3 @@ app.controller('BlogController', function($scope) {
 app.controller('AboutController', function($scope) {
   $scope.message = 'Hello from AboutController';
 });
-*/
