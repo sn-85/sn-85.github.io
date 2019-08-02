@@ -1,7 +1,7 @@
 var app = angular.module('myApp', ['ngRoute']);
 
 app.controller('HomeController', function($scope) {
-  $scope.message = 'Hello from HomeController';
+  $scope.message = 'Hello from HomeController.';
 });
 
 var app = angular.module('myApp', ['ngRoute']);
