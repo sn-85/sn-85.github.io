@@ -1,10 +1,12 @@
+//defining a module - it is a container for the different parts of the app
 var app = angular.module('myApp', ['ngRoute']);
 
+//create a controller for each specific functionality
 app.controller('HomeController', function($scope) {
   $scope.message = 'Hello from HomeController.';
 });
 
-var app = angular.module('myApp', ['ngRoute']);
+//var app = angular.module('myApp', ['ngRoute']);
 
 /*app.config(function($routeProvider) {
   $routeProvider
